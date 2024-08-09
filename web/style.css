@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.button-registration{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    background-color: #aed3d4;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.reg-container{
+    background-color: #aed3d4;
+    /* width: 900px; */
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: table;
+}
+
+.title-form {
+    background-color: #5daaa7;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.registration-form{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.student-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 30px 10px 30px 10px;
+}
+
+.field-form {
+    display: flex;
+    padding: 15px;
+}
+.field-form input {
+    flex: 1;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    word-spacing: 2px;
+}
+.field-form input :focus {
+    border: 2px solid #5daaa7;
+}
+.address {
+    padding: 10px 15px 0 15px;
+}
+textarea {
+    flex: 1;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+}
+
+/*--BUTTON--*/
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 15px 0 0;
+    flex: 1;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    word-spacing: 4px;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.add {
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5daaa7;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 8px;
+}
+
+.deleteData {
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5daaa7;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 8px;
+}
+.deleteData:hover{
+    background-color: darkred;
+}
+.deleteButton {
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5daaa7;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+}
+
+
+
+@media (max-width: 750px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .container {
+        background-color: #aed3d4;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .title-form {
+        background-color: #5daaa7;
+        padding: 15px 40px;
+        border-radius: 10px 10px 0 0;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+
+    .student-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 30px 10px 20px 10px;
+    }
+
+    .field-form {
+        flex: 1;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        padding: 5px;
+        display: flex;
+        padding: 15px;
+    }
+    .field-form input {
+        flex: 1;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        word-spacing: 2px;
+    }
+    .field-form input:focus {
+        border: 2px solid #5daaa7;
+    }
+
+    /* ADDRESS */
+    .address {
+        padding: 10px 15px 0 15px;
+    }
+    textarea {
+        flex: 1;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        padding: 5px;
+    }
+
+    /*--BUTTON--*/
+    .button {
+        display: flex;
+        justify-content: flex-end;
+        padding: 30px 15px 0 0;
+        flex: 1;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        word-spacing: 4px;
+        padding: 20px;
+        justify-content: space-between;
+        margin: 2px;
+    }
+    .add {
+        height: 100%;
+        cursor: pointer;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #5daaa7;
+        color: white;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .container {
+        background-color: #aed3d4;
+        width: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .title-form {
+        background-color: #5daaa7;
+        padding: 10px 30px;
+        border-radius: 10px 10px 0 0;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+
+    .student-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 25px 10px 20px 10px;
+    }
+    .field-form {
+        display: flex;
+        padding: 15px;
+    }
+    .field-form input {
+        flex: 1;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        word-spacing: 2px;
+        height: 2.5em;
+        font-size: 0.9em;
+    }
+    .field-form input:focus {
+        border: 2px solid #5daaa7;
+    }
+
+    /* ADDRESS */
+    .address {
+        padding: 10px 15px 0 15px;
+        margin-bottom: 15px;
+    }
+    textarea {
+        flex: 1;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        padding: 5px;
+        height: 5em;
+    }
+
+    /*--BUTTON--*/
+    .button {
+        display: flex;
+        justify-content: flex-end;
+        padding: 30px 15px 0 0;
+        flex: 1;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        word-spacing: 4px;
+        padding: 20px;
+        margin: 8px;
+        flex-direction: column;
+
+    }
+    .field-form .add {
+        margin: 3px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #5daaa7;
+        color: white;
+        letter-spacing: 2px;
+        padding: 10px;
+        text-align: center;
+        width: -webkit-fill-available;
+    }
+}
+
+@media (max-width: 440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .container {
+        background-color: #aed3d4;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    .title-form {
+        background-color: #5daaa7;
+        padding: 10px 30px;
+        border-radius: 0;
+        color: white;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+    }
+
+    .student-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 25px 10px 20px 10px;
+    }
+    .field-form {
+        display: flex;
+    }
+    .field-form input {
+        flex: 1;
+        padding-left: 10px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        word-spacing: 2px;
+        height: 2.5em;
+        font-size: 0.9em;
+    }
+    .field-form input:focus {
+        border: 2px solid #5daaa7;
+    }
+
+    /*--BUTTON--*/
+    .button {
+        display:flex;
+        justify-content: flex-end;
+        padding:30px 15px 0 0;
+        flex:1;
+        padding-left: 10px;
+        outline: none;
+        border:none;
+        border-radius: 5px;
+        word-spacing:4px;
+        padding: 20px;
+        justify-content: space-between;
+        margin: 2px;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .add {
+        height: 100%;
+        cursor: pointer;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #5daaa7;
+        color: white;
+        letter-spacing: 2px;
+    }
+}
